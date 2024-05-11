@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C32606A2BEE4B1600D04CB9 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3260692BEE4B1600D04CB9 /* FavoritesVC.swift */; };
+		4C5356862BEF2BBA00DF655E /* FavoritesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5356852BEF2BBA00DF655E /* FavoritesVM.swift */; };
+		4C5356882BEF2DA300DF655E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4C5356872BEF2DA300DF655E /* Alamofire */; };
+		4C53568A2BEF2DA300DF655E /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4C5356892BEF2DA300DF655E /* AlamofireDynamic */; };
+		4C53568C2BEF6C4000DF655E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4C53568B2BEF6C4000DF655E /* Kingfisher */; };
 		4CA80EE72BEDCBE0005202B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA80EE62BEDCBE0005202B7 /* AppDelegate.swift */; };
 		4CA80EE92BEDCBE0005202B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA80EE82BEDCBE0005202B7 /* SceneDelegate.swift */; };
 		4CA80EEB2BEDCBE0005202B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA80EEA2BEDCBE0005202B7 /* ViewController.swift */; };
@@ -28,9 +33,13 @@
 		4CA80F472BEDD7AF005202B7 /* GifHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA80F462BEDD7AF005202B7 /* GifHelper.swift */; };
 		4CA80F492BEDD807005202B7 /* ReadMe.. .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA80F482BEDD807005202B7 /* ReadMe.. .swift */; };
 		4CA80F512BEDDA2C005202B7 /* ReachabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA80F502BEDDA2C005202B7 /* ReachabilityService.swift */; };
-		4CA80F542BEDDAAA005202B7 /* FavoriteLeague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA80F532BEDDAAA005202B7 /* FavoriteLeague.swift */; };
+		4CA80F542BEDDAAA005202B7 /* FavoriteLeagueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA80F532BEDDAAA005202B7 /* FavoriteLeagueModel.swift */; };
 		4CA80F572BEDDB25005202B7 /* SportsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA80F562BEDDB25005202B7 /* SportsVC.swift */; };
 		4CA80F592BEDEAA7005202B7 /* intro.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CA80F582BEDEAA6005202B7 /* intro.gif */; };
+		4CA80F5C2BEE0F64005202B7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA80F5B2BEE0F64005202B7 /* Constants.swift */; };
+		4CA80F612BEE181F005202B7 /* Foot Ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CA80F5E2BEE181F005202B7 /* Foot Ball.gif */; };
+		4CA80F622BEE181F005202B7 /* Tennis.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CA80F5F2BEE181F005202B7 /* Tennis.gif */; };
+		4CA80F632BEE181F005202B7 /* Basket ball.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CA80F602BEE181F005202B7 /* Basket ball.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C3260692BEE4B1600D04CB9 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		4C5356852BEF2BBA00DF655E /* FavoritesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVM.swift; sourceTree = "<group>"; };
 		4CA80EE32BEDCBE0005202B7 /* SportsHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA80EE62BEDCBE0005202B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CA80EE82BEDCBE0005202B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,9 +87,13 @@
 		4CA80F462BEDD7AF005202B7 /* GifHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifHelper.swift; sourceTree = "<group>"; };
 		4CA80F482BEDD807005202B7 /* ReadMe.. .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReadMe.. .swift"; sourceTree = "<group>"; };
 		4CA80F502BEDDA2C005202B7 /* ReachabilityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityService.swift; sourceTree = "<group>"; };
-		4CA80F532BEDDAAA005202B7 /* FavoriteLeague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteLeague.swift; sourceTree = "<group>"; };
+		4CA80F532BEDDAAA005202B7 /* FavoriteLeagueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteLeagueModel.swift; sourceTree = "<group>"; };
 		4CA80F562BEDDB25005202B7 /* SportsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsVC.swift; sourceTree = "<group>"; };
 		4CA80F582BEDEAA6005202B7 /* intro.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = intro.gif; sourceTree = "<group>"; };
+		4CA80F5B2BEE0F64005202B7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4CA80F5E2BEE181F005202B7 /* Foot Ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Foot Ball.gif"; sourceTree = "<group>"; };
+		4CA80F5F2BEE181F005202B7 /* Tennis.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Tennis.gif; sourceTree = "<group>"; };
+		4CA80F602BEE181F005202B7 /* Basket ball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Basket ball.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +101,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C53568C2BEF6C4000DF655E /* Kingfisher in Frameworks */,
+				4C5356882BEF2DA300DF655E /* Alamofire in Frameworks */,
+				4C53568A2BEF2DA300DF655E /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,8 +148,10 @@
 			isa = PBXGroup;
 			children = (
 				4CA80F2D2BEDCFEC005202B7 /* Services */,
-				4CA80F4A2BEDD98A005202B7 /* First tab */,
-				4CA80F4B2BEDD9A6005202B7 /* Second tab */,
+				4CA80F322BEDD270005202B7 /* Sports */,
+				4CA80F332BEDD27C005202B7 /* Leagues */,
+				4CA80F342BEDD28C005202B7 /* LeagueDetails */,
+				4CA80F4C2BEDD9CB005202B7 /* Favorites */,
 				4CA80EE62BEDCBE0005202B7 /* AppDelegate.swift */,
 				4CA80EE82BEDCBE0005202B7 /* SceneDelegate.swift */,
 				4CA80F3F2BEDD4F0005202B7 /* HelperMethods */,
@@ -173,7 +193,7 @@
 		4CA80F1C2BEDCCD4005202B7 /* Anas-MainBord */ = {
 			isa = PBXGroup;
 			children = (
-				4CA80F582BEDEAA6005202B7 /* intro.gif */,
+				4CA80F5D2BEE17FE005202B7 /* Gifs */,
 				4CA80EEC2BEDCBE0005202B7 /* Main.storyboard */,
 				4CA80EF42BEDCBE3005202B7 /* LaunchScreen.storyboard */,
 			);
@@ -231,7 +251,6 @@
 		4CA80F362BEDD2FC005202B7 /* SportsVM */ = {
 			isa = PBXGroup;
 			children = (
-				4CA80F562BEDDB25005202B7 /* SportsVC.swift */,
 			);
 			path = SportsVM;
 			sourceTree = "<group>";
@@ -239,6 +258,7 @@
 		4CA80F372BEDD308005202B7 /* SportsView */ = {
 			isa = PBXGroup;
 			children = (
+				4CA80F562BEDDB25005202B7 /* SportsVC.swift */,
 			);
 			path = SportsView;
 			sourceTree = "<group>";
@@ -292,6 +312,7 @@
 		4CA80F3F2BEDD4F0005202B7 /* HelperMethods */ = {
 			isa = PBXGroup;
 			children = (
+				4CA80F5A2BEE0F3B005202B7 /* Constants */,
 				4CA80F452BEDD78E005202B7 /* GifCode */,
 				4CA80F402BEDD504005202B7 /* KingfisherMethod */,
 			);
@@ -314,24 +335,6 @@
 			path = GifCode;
 			sourceTree = "<group>";
 		};
-		4CA80F4A2BEDD98A005202B7 /* First tab */ = {
-			isa = PBXGroup;
-			children = (
-				4CA80F322BEDD270005202B7 /* Sports */,
-				4CA80F332BEDD27C005202B7 /* Leagues */,
-				4CA80F342BEDD28C005202B7 /* LeagueDetails */,
-			);
-			path = "First tab";
-			sourceTree = "<group>";
-		};
-		4CA80F4B2BEDD9A6005202B7 /* Second tab */ = {
-			isa = PBXGroup;
-			children = (
-				4CA80F4C2BEDD9CB005202B7 /* Favorites */,
-			);
-			path = "Second tab";
-			sourceTree = "<group>";
-		};
 		4CA80F4C2BEDD9CB005202B7 /* Favorites */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +348,7 @@
 		4CA80F4D2BEDD9DB005202B7 /* FavoritesView */ = {
 			isa = PBXGroup;
 			children = (
+				4C3260692BEE4B1600D04CB9 /* FavoritesVC.swift */,
 			);
 			path = FavoritesView;
 			sourceTree = "<group>";
@@ -352,6 +356,7 @@
 		4CA80F4E2BEDD9EE005202B7 /* FavoritesVM */ = {
 			isa = PBXGroup;
 			children = (
+				4C5356852BEF2BBA00DF655E /* FavoritesVM.swift */,
 			);
 			path = FavoritesVM;
 			sourceTree = "<group>";
@@ -359,9 +364,28 @@
 		4CA80F4F2BEDD9F3005202B7 /* FavoritesModel */ = {
 			isa = PBXGroup;
 			children = (
-				4CA80F532BEDDAAA005202B7 /* FavoriteLeague.swift */,
+				4CA80F532BEDDAAA005202B7 /* FavoriteLeagueModel.swift */,
 			);
 			path = FavoritesModel;
+			sourceTree = "<group>";
+		};
+		4CA80F5A2BEE0F3B005202B7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4CA80F5B2BEE0F64005202B7 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4CA80F5D2BEE17FE005202B7 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				4CA80F602BEE181F005202B7 /* Basket ball.gif */,
+				4CA80F5E2BEE181F005202B7 /* Foot Ball.gif */,
+				4CA80F5F2BEE181F005202B7 /* Tennis.gif */,
+				4CA80F582BEDEAA6005202B7 /* intro.gif */,
+			);
+			path = Gifs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +404,11 @@
 			dependencies = (
 			);
 			name = SportsHub;
+			packageProductDependencies = (
+				4C5356872BEF2DA300DF655E /* Alamofire */,
+				4C5356892BEF2DA300DF655E /* AlamofireDynamic */,
+				4C53568B2BEF6C4000DF655E /* Kingfisher */,
+			);
 			productName = SportsApp;
 			productReference = 4CA80EE32BEDCBE0005202B7 /* SportsHub.app */;
 			productType = "com.apple.product-type.application";
@@ -472,11 +501,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA80F632BEE181F005202B7 /* Basket ball.gif in Resources */,
 				4CA80EF32BEDCBE3005202B7 /* Assets.xcassets in Resources */,
 				4CA80F1E2BEDCCFE005202B7 /* Storyboard.storyboard in Resources */,
+				4CA80F612BEE181F005202B7 /* Foot Ball.gif in Resources */,
 				4CA80EF62BEDCBE3005202B7 /* Base in Resources */,
 				4CA80EEE2BEDCBE0005202B7 /* Base in Resources */,
 				4CA80F592BEDEAA7005202B7 /* intro.gif in Resources */,
+				4CA80F622BEE181F005202B7 /* Tennis.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,15 +535,18 @@
 			files = (
 				4CA80F512BEDDA2C005202B7 /* ReachabilityService.swift in Sources */,
 				4CA80F312BEDD056005202B7 /* NetworkService.swift in Sources */,
+				4C5356862BEF2BBA00DF655E /* FavoritesVM.swift in Sources */,
 				4CA80F2C2BEDCFDB005202B7 /* Team.swift in Sources */,
-				4CA80F542BEDDAAA005202B7 /* FavoriteLeague.swift in Sources */,
+				4CA80F542BEDDAAA005202B7 /* FavoriteLeagueModel.swift in Sources */,
 				4CA80EEB2BEDCBE0005202B7 /* ViewController.swift in Sources */,
 				4CA80F212BEDCD9E005202B7 /* Sports.swift in Sources */,
+				4C32606A2BEE4B1600D04CB9 /* FavoritesVC.swift in Sources */,
 				4CA80EE72BEDCBE0005202B7 /* AppDelegate.swift in Sources */,
 				4CA80F2A2BEDCFC0005202B7 /* Match.swift in Sources */,
 				4CA80EF12BEDCBE0005202B7 /* SportsApp.xcdatamodeld in Sources */,
 				4CA80F252BEDCE06005202B7 /* League.swift in Sources */,
 				4CA80F472BEDD7AF005202B7 /* GifHelper.swift in Sources */,
+				4CA80F5C2BEE0F64005202B7 /* Constants.swift in Sources */,
 				4CA80F282BEDCE27005202B7 /* Event.swift in Sources */,
 				4CA80F2F2BEDD042005202B7 /* CoreDataManager.swift in Sources */,
 				4CA80F572BEDDB25005202B7 /* SportsVC.swift in Sources */,
@@ -876,6 +911,24 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C5356872BEF2DA300DF655E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CA80F192BEDCC49005202B7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4C5356892BEF2DA300DF655E /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CA80F192BEDCC49005202B7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		4C53568B2BEF6C4000DF655E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CA80F1A2BEDCC93005202B7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4CA80EEF2BEDCBE0005202B7 /* SportsApp.xcdatamodeld */ = {
